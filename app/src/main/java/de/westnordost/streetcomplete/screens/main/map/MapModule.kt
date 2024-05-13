@@ -21,7 +21,7 @@ val mapModule = module {
             ))
         ) {
             override fun getTileUrl(zoom: Int, x: Int, y: Int): String =
-                "https://tile.jawg.io/streets-v2/$zoom/$x/$y.pbf?access-token=$apiKey"
+                "http://tile.jawg.io/streets-v2/$zoom/$x/$y.pbf?access-token=$apiKey"
         }
     }
 
