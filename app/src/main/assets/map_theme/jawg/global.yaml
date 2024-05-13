@@ -141,7 +141,7 @@ lights:
 sources:
     jawg:
         type: MVT
-        url: https://tile.jawg.io/streets-v2/{z}/{x}/{y}.pbf
+        url: http://tile.jawg.io/streets-v2/{z}/{x}/{y}.pbf
         max_zoom: 16
         url_params:
             access-token: global.api_key
